@@ -31,6 +31,7 @@ ModName.slp
     ...
 ```
 - The only requirement in this case is that all proceeding folders before the mod content are empty other than a single subdirectory.
+***
 ### Root
 - The root folder is the one that is zipped and renamed to a .slp, this should contain at least the metadata file.
 - All the other folders and files are optional
@@ -44,18 +45,19 @@ ModName.slp
     <Version>mod_version</version>
 </Metadata>
 ```
+***
 ### Meshes
 - Stores mesh objects to be installed, this folder can support meshes in subfolders, as many levels down as required, however, remember to make sure subfolder paths are correct when creating definitions.
 - It is reccomended that meshes are stored in a folder with the creator's name or mod name so that its easy to identify them in the stormworks directory.
-
+***
 ### Definitions
 - Stores block definition xmls.
 - Cannot have subfolders,
-
+***
 ### Audio
 - Stores audio for blocks, using the .ogg format.
 - This directory can have subfolders, as many levels as required, as with meshes, consider the path when defining audio in the block definitions.
-
+***
 ### Graphics
 - Stores graphics data files and folders.
 - This folder and file strucure reflects that of the stormworks directory, to overwrite the additive shader for example, it would be like this in the mod:
@@ -65,6 +67,7 @@ ModName.slp
 │   └── shaders
 │      └── additive.glslf
 ```
+***
 ### Data
 - Stores all other mod data files and folders not in Meshes, Definitions or Audio.
 - Like the Graphics folder, this mirrors the 'data' folder in the stormworks directory, to add a custom vehicle preset with your mod, you can do so by placing it like this:
