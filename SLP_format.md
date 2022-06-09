@@ -23,11 +23,11 @@ ModName.slp
 ## Folder Details
 - A .SLP file is a renamed .ZIP file.
 - StormLoader WILL NOT install your mod if the .slp is a renamed .rar or .7z, it MUST be a .zip.
-- Requirements have bee nrelaxed allowing the mod to exist any number of subfolders into the .slp package itself, for example:
+- Requirements have been relaxed allowing the mod to exist any number of subfolders into the .slp package itself, for example:
 ```
 ModName.slp
-└── ModNamwe
-    ├── Mehes
+└── ModNamme
+    ├── Meshes
     ...
 ```
 - The only requirement in this case is that all proceeding folders before the mod content are empty other than a single subdirectory.
@@ -42,7 +42,7 @@ ModName.slp
 ```
 <Metadata>
     <Author>author_name</Author>
-    <Version>mod_version</version>
+    <Version>mod_version</Version>
 </Metadata>
 ```
 ***
